@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mis Lugares"/>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:id="@+id/img_guatape"
+                    android:layout_margin="10dp"
+                    android:layout_width="@dimen/alto"
+                    android:layout_height="@dimen/alto"
+                    android:src="@drawable/guatape"
+                    android:onClick="irMapa"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guatapé" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:id="@+id/img_parque_arvi"
+
+                    android:layout_margin="10dp"
+
+                    android:layout_width="@dimen/alto"
+                    android:layout_height="@dimen/alto"
+                    android:src="@drawable/parquearvi"
+                    android:onClick="irMapa"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:text="Parque Arvi"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/img_pueblito_paisa"
+            android:layout_margin="10dp"
+            android:layout_width="@dimen/alto"
+            android:layout_height="@dimen/alto"
+            android:src="@drawable/pueblitopaisa"
+            android:onClick="irMapa"
+            />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pueblito Paisa" />
+
+                   </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/img_santafe"
+                android:layout_width="@dimen/alto"
+                android:layout_height="@dimen/alto"
+                android:src="@drawable/santa_fe_de_antioquia"
+                android:onClick="irMapa"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:text="Santa Fé de Antioquia"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <!-- <Button
+         android:id="@+id/button"
+
+         android:text="ir a mis mapas"
+         android:layout_width="match_parent"
+         android:onClick="irMapa"
+         android:layout_height="wrap_content" />-->
+
+</android.support.constraint.ConstraintLayout>
